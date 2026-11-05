@@ -4,14 +4,14 @@ A daily brief I made for myself. Each morning it gathers market data, news, weat
 
 **Live sample: https://adamklein427.github.io/six-seven/**
 
-This is one frozen edition, Wednesday, November 4, 2026 (run 137). It's static: built offline from stored data, with no server, no accounts and no keys. It was written before that day's Fed decision, so its calls are still open. Not investment advice.
+This is one frozen edition, Wednesday, November 4, 2026 (run 137). It's static: built offline from stored data, with no server, no accounts and no keys. Known error: it shows a Fed decision on November 4 that the Fed's calendar doesn't have, from a hand-kept calendar file I'm fixing. Its record is as of that morning. Not investment advice.
 
 ## What makes it trustworthy
 
 - **The model never produces a number.** Every figure comes from a data feed and a stored record. The model only interprets.
 - **Its claims cite evidence.** What the model writes has to cite evidence by ID, and the code rejects unknown or missing IDs.
 - **Each source fails on its own.** One dead feed doesn't stop the edition.
-- **It keeps score.** Calls are graded automatically and the record is published whether or not it flatters the brief. In this edition that's 34 of 68 graded calls right, which is a coin flip, with 15 still open.
+- **It keeps score.** Calls are graded automatically and the record is published whether or not it flatters the brief. In this edition that's 34 of 68 graded calls right, with 15 still open. That beats a blind guess among up, down and flat (about 33%), but always guessing "down" would have scored 46%, so I don't treat it as skill yet.
 
 ## What's in this repo
 
